@@ -116,7 +116,7 @@ body p {
     max-width: 1020px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 65vh;
+    padding-top: 60vh;
     box-sizing: border-box;
     opacity: 1;
 }
@@ -127,6 +127,7 @@ body p {
     line-height: 60px;
     margin: 30px auto;
     letter-spacing: 1.6px;
+    text-align: center;
 }
 
 .image-title h2 {
@@ -135,11 +136,11 @@ body p {
     line-height: 48px;
     margin: 30px auto;
     letter-spacing: 1.6px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
     .image-title {
-        max-width: 550px;
         padding-top: 60vh;
     }
 
@@ -209,6 +210,14 @@ body p {
     to {
         opacity: 1
     }
+}
+
+
+.page-set-nbgc {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 90px 30px;
+    animation: fadein 0.5s 1.9s both;
 }
 
 /*--------------------portfolio--------------------*/
