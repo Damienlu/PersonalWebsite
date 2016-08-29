@@ -170,20 +170,30 @@ body p {
 
 .image__page {
     width: 100%;
-    height: 945px;
+    /*height: 945px;*/
     overflow: hidden;
     position: relative;
     z-index: 10;
     background: url("../img/p2.jpg") no-repeat center -200px;
+    background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
 }
-.mobile-image-page {
+
+.add__image {
+
+}
+
+.mobile__image__page {
+    background-image: url("../img/p2.jpg");
     width: 100%;
-    height: 945px;
+    /*height: 945px;*/
     overflow: hidden;
-    position: absolute;
+    position: relative;
     z-index: 10;
-    background: url("../img/p2.jpg") no-repeat center fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
 }
 
@@ -246,6 +256,31 @@ body p {
 .contact__page {
     background: url("../img/p3.jpg") no-repeat center center;
 }
+
+.add__work {
+
+}
+
+.add__contact {
+
+}
+
+.mobile__work__page {
+    background-image: url("../img/p1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile__contact__page {
+    background-image: url("../img/p3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .work-page-title, .contact-page-title {
     position: relative;
