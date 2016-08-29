@@ -160,9 +160,11 @@ body p {
 @media only screen and (max-width: 640px) {
     .image-title h1 {
         font-size: 46px;
+        line-height: 20px;
     }
     .image-title h2 {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 40px;
     }
 }
 
