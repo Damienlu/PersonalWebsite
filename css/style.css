@@ -194,7 +194,7 @@ body p {
     overflow: hidden;
     position: relative;
     z-index: 10;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,7 +267,7 @@ animation: fadein 0.5s 1.9s both;
 
 .mobile__work__page {
     background-image: url("../img/p1.jpg");
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,7 +275,7 @@ animation: fadein 0.5s 1.9s both;
 
 .mobile__contact__page {
     background-image: url("../img/p3.jpg");
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
