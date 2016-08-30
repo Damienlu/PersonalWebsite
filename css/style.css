@@ -182,6 +182,7 @@ body p {
     background: url("../img/p2.jpg") no-repeat center -200px;
     background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
+    -webkit-overflow-scrolling: touch;
 }
 
 .add__image {
@@ -199,6 +200,7 @@ body p {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     animation: imgfadein 0.5s 0.5s both;
+    -webkit-overflow-scrolling: touch;
 }
 
 @keyframes imgfadein {
@@ -245,6 +247,7 @@ animation: fadein 0.5s 1.9s both;
     overflow: hidden;
     position: relative;
     z-index: 0;
+    -webkit-overflow-scrolling: touch;
 }
 
 .work__page {
@@ -271,6 +274,7 @@ animation: fadein 0.5s 1.9s both;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    -webkit-overflow-scrolling: touch;
 }
 
 .mobile__contact__page {
@@ -279,6 +283,7 @@ animation: fadein 0.5s 1.9s both;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    -webkit-overflow-scrolling: touch;
 }
 
 .work-container, .contact-container {
