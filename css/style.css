@@ -8,8 +8,12 @@
     text-decoration: none;
 }
 
-.space {
+.space-begin {
     padding: 10px;
+}
+
+.space-end {
+    padding: 18px;
 }
 
 body {
@@ -28,6 +32,12 @@ body {
     padding: 90px 30px;
 }
 
+.page-set-nbgc {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
 body h1, body h2 {
     font-weight: 600;
     font-style: normal;
@@ -35,7 +45,7 @@ body h1, body h2 {
 }
 
 body p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     font-weight: 400;
     letter-spacing: 1.5px;
@@ -116,7 +126,7 @@ body p {
     max-width: 1020px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 60vh;
+    /*padding-top: 60vh;*/
     box-sizing: border-box;
     opacity: 1;
 }
@@ -140,10 +150,6 @@ body p {
 }
 
 @media only screen and (max-width: 768px) {
-    .image-title {
-        padding-top: 60vh;
-    }
-
     .image-title h1 {
         font-size: 50px;
         line-height: 50px;
@@ -170,7 +176,6 @@ body p {
 
 .image__page {
     width: 100%;
-    /*height: 945px;*/
     overflow: hidden;
     position: relative;
     z-index: 10;
@@ -186,7 +191,6 @@ body p {
 .mobile__image__page {
     background-image: url("../img/p2.jpg");
     width: 100%;
-    /*height: 945px;*/
     overflow: hidden;
     position: relative;
     z-index: 10;
@@ -214,6 +218,9 @@ body p {
     background-color: rgba(37, 83, 89, .6);
     animation: fadein 0.5s 1.2s both;
 }
+.anim-fadein {
+animation: fadein 0.5s 1.9s both;
+}
 
 @keyframes fadein {
     from {
@@ -222,14 +229,6 @@ body p {
     to {
         opacity: 1
     }
-}
-
-
-.page-set-nbgc {
-    max-width: 1020px;
-    margin: 0 auto;
-    padding: 90px 30px;
-    animation: fadein 0.5s 1.9s both;
 }
 
 /*--------------------portfolio--------------------*/
@@ -243,7 +242,6 @@ body p {
 
 .work__page, .contact__page {
     width: 100%;
-    height: 50vh;
     overflow: hidden;
     position: relative;
     z-index: 0;
@@ -251,10 +249,12 @@ body p {
 
 .work__page {
     background: url("../img/p1.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 .contact__page {
     background: url("../img/p3.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 .add__work {
@@ -281,15 +281,22 @@ body p {
     background-size: cover;
 }
 
-
-.work-page-title, .contact-page-title {
+.work-container, .contact-container {
     position: relative;
     width: 100%;
+    height: 100%;
     margin: auto;
     background-color: rgba(37, 83, 89, .6);
 }
 
-.work__page div h1, .contact__page div h1 {
+.work-page-title, .contact-page-title {
+    max-width: 1020px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.add__work div h1, .add__contact div h1 {
     color: #fff;
     font-size: 60px;
     margin: auto;
@@ -310,13 +317,13 @@ body p {
 }
 
 .main-contact h1 {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.2em;
     letter-spacing: 1px;
 }
 
 .main-contact p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     letter-spacing: 1.5px;
 }
@@ -326,7 +333,7 @@ body p {
     line-height: 2em;
 }
 #email-section label,#email-section input{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     letter-spacing: 1.5px;
 }
@@ -414,7 +421,7 @@ section .input {
     display: block;
     font-weight: 600;
     letter-spacing: 3px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     line-height: 1;
     color: #363636;
