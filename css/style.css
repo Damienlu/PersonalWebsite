@@ -195,9 +195,9 @@ body p {
     position: relative;
     z-index: 10;
     background-attachment: fixed !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position:  !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     animation: imgfadein 0.5s 0.5s both;
 }
 
@@ -268,17 +268,17 @@ animation: fadein 0.5s 1.9s both;
 .mobile__work__page {
     background-image: url("../img/p1.jpg");
     background-attachment: fixed !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .mobile__contact__page {
     background-image: url("../img/p3.jpg");
     background-attachment: fixed !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .work-container, .contact-container {
