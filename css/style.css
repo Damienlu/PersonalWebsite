@@ -196,7 +196,7 @@ body p {
     position: relative;
     z-index: 10;
     background-attachment: fixed !important;
-    background-position:  !important;
+    background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     animation: imgfadein 0.5s 0.5s both;
