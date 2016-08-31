@@ -185,7 +185,6 @@ body p {
     -o-background-size: cover;
     background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
-    /*-webkit-overflow-scrolling: touch;*/
 }
 
 .mobile__image__page {
@@ -202,7 +201,6 @@ body p {
     -o-background-size: cover;
     background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
-    -webkit-overflow-scrolling: touch;
 }
 
 @keyframes imgfadein {
@@ -249,23 +247,18 @@ animation: fadein 0.5s 1.9s both;
     overflow: hidden;
     position: relative;
     z-index: 0;
-    -webkit-overflow-scrolling: touch;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
 
 .work__page {
-    background: url("../img/p1.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("../img/p1.jpg") no-repeat center -200px;
 }
 
 .contact__page {
-    background: url("../img/p3.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("../img/p3.jpg") no-repeat center -200px;
 }
 
 .mobile__work__page {
@@ -277,7 +270,6 @@ animation: fadein 0.5s 1.9s both;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-overflow-scrolling: touch;
 }
 
 .mobile__contact__page {
@@ -289,7 +281,6 @@ animation: fadein 0.5s 1.9s both;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-overflow-scrolling: touch;
 }
 
 .work-container, .contact-container {
@@ -319,11 +310,13 @@ animation: fadein 0.5s 1.9s both;
         line-height: 183px;
     }
 }
-@media only screen and (max-height: 365px) {
+@media only screen and (min-height: 2160px) {
     .work-page-title h1, .contact-page-title h1 {
         line-height: 1080px;
     }
 }
+
+/*--------------------work content--------------------*/
 
 .main-work-content1 img, .main-work-content2 img {
     width: 200px;
