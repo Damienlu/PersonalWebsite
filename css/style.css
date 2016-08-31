@@ -180,13 +180,9 @@ body p {
     position: relative;
     z-index: 10;
     background: url("../img/p2.jpg") no-repeat center -200px;
-    background-size: cover;
+    /*background-size: cover;*/
     animation: imgfadein 0.5s 0.5s both;
-    -webkit-overflow-scrolling: touch;
-}
-
-.add__image {
-
+    /*-webkit-overflow-scrolling: touch;*/
 }
 
 .mobile__image__page {
@@ -195,10 +191,10 @@ body p {
     overflow: hidden;
     position: relative;
     z-index: 10;
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
     animation: imgfadein 0.5s 0.5s both;
     -webkit-overflow-scrolling: touch;
 }
@@ -252,37 +248,29 @@ animation: fadein 0.5s 1.9s both;
 
 .work__page {
     background: url("../img/p1.jpg") no-repeat center center;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .contact__page {
     background: url("../img/p3.jpg") no-repeat center center;
-    background-size: cover;
-}
-
-.add__work {
-
-}
-
-.add__contact {
-
+    /*background-size: cover;*/
 }
 
 .mobile__work__page {
     background-image: url("../img/p1.jpg");
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
     -webkit-overflow-scrolling: touch;
 }
 
 .mobile__contact__page {
     background-image: url("../img/p3.jpg");
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
     -webkit-overflow-scrolling: touch;
 }
 
@@ -301,12 +289,22 @@ animation: fadein 0.5s 1.9s both;
     box-sizing: border-box;
 }
 
-.add__work div h1, .add__contact div h1 {
+.work-page-title h1, .contact-page-title h1 {
     color: #fff;
     font-size: 60px;
     margin: auto;
     line-height: 50vh;
     text-align: center;
+}
+@media only screen and (max-height: 365px) {
+    .work-page-title h1, .contact-page-title h1 {
+        line-height: 183px;
+    }
+}
+@media only screen and (max-height: 365px) {
+    .work-page-title h1, .contact-page-title h1 {
+        line-height: 1080px;
+    }
 }
 
 .main-work-content1 img, .main-work-content2 img {
