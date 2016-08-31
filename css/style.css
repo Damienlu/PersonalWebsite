@@ -246,19 +246,23 @@ animation: fadein 0.5s 1.9s both;
     width: 100%;
     overflow: hidden;
     position: relative;
-    z-index: 0;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
+    z-index: 10;
 }
 
 .work__page {
     background: url("../img/p1.jpg") no-repeat center -200px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .contact__page {
     background: url("../img/p3.jpg") no-repeat center -200px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .mobile__work__page {
@@ -266,6 +270,10 @@ animation: fadein 0.5s 1.9s both;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -277,6 +285,10 @@ animation: fadein 0.5s 1.9s both;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
