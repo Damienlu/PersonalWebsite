@@ -126,7 +126,7 @@ body p {
     max-width: 1020px;
     margin: 0 auto;
     text-align: center;
-    /*padding-top: 60vh;*/
+    padding-top: 60vh;
     box-sizing: border-box;
     opacity: 1;
 }
@@ -180,7 +180,10 @@ body p {
     position: relative;
     z-index: 10;
     background: url("../img/p2.jpg") no-repeat center -200px;
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
     /*-webkit-overflow-scrolling: touch;*/
 }
@@ -192,9 +195,12 @@ body p {
     position: relative;
     z-index: 10;
     background-attachment: fixed;
-    background-position: center 50%;
+    background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     animation: imgfadein 0.5s 0.5s both;
     -webkit-overflow-scrolling: touch;
 }
@@ -248,12 +254,18 @@ animation: fadein 0.5s 1.9s both;
 
 .work__page {
     background: url("../img/p1.jpg") no-repeat center center;
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .contact__page {
     background: url("../img/p3.jpg") no-repeat center center;
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .mobile__work__page {
@@ -261,7 +273,10 @@ animation: fadein 0.5s 1.9s both;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -270,7 +285,10 @@ animation: fadein 0.5s 1.9s both;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-overflow-scrolling: touch;
 }
 
