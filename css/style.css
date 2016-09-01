@@ -184,7 +184,7 @@ body p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    animation: imgfadein 0.5s 0.5s both;
+    /*animation: imgfadein 1s 2s both;*/
 }
 
 .mobile__image__page {
@@ -200,7 +200,7 @@ body p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    animation: imgfadein 0.5s 0.5s both;
+    /*animation: imgfadein 1s 2s both;*/
 }
 
 @keyframes imgfadein {
@@ -218,10 +218,10 @@ body p {
     width: 100%;
     height: 100%;
     background-color: rgba(37, 83, 89, .6);
-    animation: fadein 0.5s 1.2s both;
+    animation: fadein 1s 2s both;
 }
-.anim-fadein {
-animation: fadein 0.5s 1.9s both;
+.anim-titlefadein {
+animation: fadein 1s 3s both;
 }
 
 @keyframes fadein {
@@ -301,6 +301,7 @@ animation: fadein 0.5s 1.9s both;
     height: 100%;
     margin: auto;
     background-color: rgba(37, 83, 89, .6);
+    animation: fadein 1s 2s both;
 }
 
 .work-page-title, .contact-page-title {
