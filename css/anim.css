@@ -1,0 +1,16 @@
+.anim-maskfadein {
+    animation: fadein 1s 2s both;
+}
+
+.anim-titlefadein {
+    animation: fadein 1s 3s both;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}

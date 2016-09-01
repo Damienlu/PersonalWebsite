@@ -184,7 +184,6 @@ body p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*animation: imgfadein 1s 2s both;*/
 }
 
 .mobile__image__page {
@@ -200,16 +199,6 @@ body p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*animation: imgfadein 1s 2s both;*/
-}
-
-@keyframes imgfadein {
-    from {
-        opacity: 0
-    }
-    to {
-        opacity: 1
-    }
 }
 
 .image-container {
@@ -218,20 +207,8 @@ body p {
     width: 100%;
     height: 100%;
     background-color: rgba(37, 83, 89, .6);
-    animation: fadein 1s 2s both;
-}
-.anim-titlefadein {
-animation: fadein 1s 3s both;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0
-    }
-    to {
-        opacity: 1
-    }
-}
 
 /*--------------------portfolio--------------------*/
 
@@ -301,7 +278,6 @@ animation: fadein 1s 3s both;
     height: 100%;
     margin: auto;
     background-color: rgba(37, 83, 89, .6);
-    animation: fadein 1s 2s both;
 }
 
 .work-page-title, .contact-page-title {
