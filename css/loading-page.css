@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #fad689;
+    background-color: #255359;
     display: -webkit-flex;
     display:flex;
     -webkit-align-items: center;
@@ -59,8 +59,8 @@
     100%{ opacity: 0; }
 }
 @keyframes loading_text{
-    0%{ color:#fad689;}
+    0%{ color:#255359;}
     22%{ color:#fff; }
-    66%{ color:#fad689; }
+    66%{ color:#255359; }
     100%{ color:#fff; }
 }
