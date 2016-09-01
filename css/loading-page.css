@@ -14,8 +14,8 @@
 
 .loading-block {
     display: block;
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
     border: 2px solid #fff;
     text-align: center;
     line-height: 50px;
@@ -37,8 +37,8 @@
     position: absolute;
     top:0;
     left:0;
-    width: 46px;
-    height:46px;
+    width: 48px;
+    height:48px;
     z-index:-1;
     opacity: 1;
     background:rgba(255,255,255,1);

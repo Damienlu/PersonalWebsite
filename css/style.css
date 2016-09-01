@@ -51,29 +51,6 @@ body p {
     letter-spacing: 1.5px;
 }
 
-/*--------------------loading page--------------------*/
-
-.loading-page {
-
-}
-
-.loading-block {
-
-}
-
-.loading-block::before {
-
-}
-
-.loading-block::after {
-
-}
-
-.load-hide {
-
-}
-
-
 /*--------------------固定連結點--------------------*/
 
 #parallax-nav {
