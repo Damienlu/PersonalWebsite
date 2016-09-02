@@ -165,7 +165,7 @@ body p {
 
 .mobile__image__page {
     background-image: url("../img/p2.jpg");
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     position: relative;
     z-index: 10;
