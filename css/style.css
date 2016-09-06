@@ -56,48 +56,83 @@ body p {
 #parallax-nav {
     position: fixed;
     z-index: 60;
-    top: 50%;
+    top: 45%;
     right: 20px;
     padding: 0 10px 0 0;
+    opacity: 1;
+}
 
+@media only screen and (max-width: 768px) {
+    #parallax-nav {
+        opacity: 0;
+    }
 }
 
 .nav-title {
     position: absolute;
     right: 10px;
+    opacity: 0;
     font-size: 13px;
     font-family: 'Lato', serif;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     text-decoration: none;
-    padding: 0 0 5px 0;
-    line-height: 32px;
-    color: #363636;
+    padding: 0 10px 5px 10px;
+    line-height: 13px;
+    color: #d05a6e;
+    visibility: hidden;
+
+}
+
+#parallax-nav li:hover span.nav-title {
+    right: 20px;
+    opacity: 1;
+    z-index: 51;
+    padding-right: 15px;
+    visibility: visible;
 }
 
 #parallax-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    cursor: pointer;
 }
 
 #parallax-nav ul li {
     margin: 0;
     padding: 10px 0 10px 15px;
-    cursor: pointer;
 }
 
-#parallax-nav {
-    position: fixed;
-    z-index: 52;
-    top: 50%;
-    right: 15px;
-    padding: 0 10px 0 0;
+#parallax-nav ul li a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
-/*--------------------首頁大圖--------------------*/
+#parallax-nav ul li.active a {
+    width: 8px;
+    height: 8px;
+}
+
+#parallax-nav ul li a {
+    background-color: #d05a6e;
+}
+
+#parallax-nav ul li.active a {
+    background-color: transparent;
+    border: solid 2px #d05a6e;
+}
+
+/*.parallax-nav ul li .nav-title {*/
+    /*color: #fff;*/
+/*}*/
+
+    /*--------------------首頁大圖--------------------*/
 
 .image-title {
     max-width: 1020px;
@@ -331,8 +366,11 @@ section .input {
     background-color: #d05a6e;
     border: solid 1px #d05a6e;
     line-height: 1.2em;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     border-radius: 20px;
     padding: 6px 16px;
+    -webkit-transition: .5s;
     transition: .5s;
 }
 
@@ -340,6 +378,7 @@ section .input {
     color: #fff;
     background-color: #255359;
     border: solid 1px #255359;
+    -webkit-transition: .5s;
     transition: .5s;
 }
 
@@ -369,11 +408,14 @@ section .input {
     height: 60px;
     z-index: 100;
     background-color: #fbfbfb;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
     left: 50%;
     top: -30px;
     margin-left: -30px;
+    -webkit-transition: .5s;
     transition: .5s;
 }
 

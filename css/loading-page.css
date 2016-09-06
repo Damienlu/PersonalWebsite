@@ -8,6 +8,7 @@
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
+    -moz- justify-content: center;
     justify-content: center;
     z-index: 1000;
 }
@@ -20,6 +21,8 @@
     text-align: center;
     line-height: 50px;
     position:relative;
+    -webkit-animation:loading_inout 3s 0s infinite forwards;
+    -moz-animation:loading_inout 3s 0s infinite forwards;
     animation:loading_inout 3s 0s infinite forwards;
     overflow:hidden;
 }
@@ -29,6 +32,8 @@
     font-size: 24px;
     color:#fff;
     font-family:'Lato' , sans-serif;
+    -webkit-animation:loading_text 3s 0s infinite forwards;
+    -moz-animation:loading_text 3s 0s infinite forwards;
     animation:loading_text 3s 0s infinite forwards;
 }
 
@@ -42,6 +47,8 @@
     z-index:-1;
     opacity: 1;
     background:rgba(255,255,255,1);
+    -webkit-animation:loading_bg 3s 0s infinite forwards;
+    -moz-animation:loading_bg 3s 0s infinite forwards;
     animation:loading_bg 3s 0s infinite forwards;
 }
 
@@ -54,7 +61,6 @@
 }
 @keyframes loading_bg{
     0%{ opacity: 0; }
-    /*33%{ opacity: 0; }*/
     66%{ opacity: 1; }
     100%{ opacity: 0; }
 }

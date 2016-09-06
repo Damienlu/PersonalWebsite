@@ -1,8 +1,10 @@
 .anim-maskfadein {
+    -webkit-animation: fadein 1s 2s both;
     animation: fadein 1s 2s both;
 }
 
 .anim-titlefadein {
+    -webkit-animation: fadein 1s 3s both;
     animation: fadein 1s 3s both;
 }
 
@@ -12,5 +14,39 @@
     }
     to {
         opacity: 1
+    }
+}
+
+#parallax-nav li:hover span.nav-title {
+    -webkit-animation: moveinside .2s both;
+    animation: moveinside .2s both;
+}
+
+@keyframes moveinside {
+    from {
+        right: 10px;
+        opacity: 0;
+    }
+    to {
+        right: 20px;
+        opacity: 1;
+    }
+}
+
+#parallax-nav li span.nav-title {
+    -webkit-animation: moveoutside .2s both;
+    animation: moveoutside .2s both;
+}
+
+@keyframes moveoutside {
+    from {
+        right: 20px;
+        opacity: 1;
+        visibility: visible;
+    }
+    to {
+        right: 10px;
+        opacity: 0;
+        visibility: hidden;
     }
 }
