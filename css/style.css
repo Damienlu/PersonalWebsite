@@ -37,13 +37,13 @@ body {
     max-width: 960px;
     background-color: #fbfbfb;
     margin: 0 auto;
-    padding: 90px 0;
+    padding: 90px 40px;
 }
 
 .page-set-nbgc {
     max-width: 960px;
     margin: 0 auto;
-    padding: 0px 0;
+    padding: 0 40px;
 }
 
 body h1, body h2, body h3 {
@@ -292,7 +292,7 @@ body p.Eng {
     background: #d05a6e;
     border-radius: 20px 0px 0px 20px;
     z-index: 2;
-    transition:1s;
+    /*transition:1s;*/
 }
 .main-portfolio-skill ul li .Master .line_content {
     width: 95%
@@ -309,9 +309,9 @@ body p.Eng {
 .main-portfolio-skill ul li .Beginner .line_content {
     width: 15%
 }
-.main-portfolio-skill ul li .line_box .line_hide {
-    width: 0%;
-}
+/*.main-portfolio-skill ul li .line_box .line_hide {*/
+    /*width: 0%;*/
+/*}*/
 
 .main-portfolio-skill ul li .line_box .line_bg {
     position: absolute;
@@ -554,25 +554,10 @@ section .input {
 
 /*--------------------@media--------------------*/
 
-@media only screen and (max-height: 365px) {
-
-    .work-page-title h1, .contact-page-title h1 {line-height: 183px;}
-
+@media only screen and (max-width: 1280px) {
+    .page-set, .page-set-nbgc, .image-title, .work-page-title, .contact-page-title {max-width: 780px;}
 }
 
-@media only screen and (max-width: 640px) {
-
-    .image-title h1 {
-        font-size: 32px;
-        line-height: 20px;
-    }
-
-    .image-title h2 {
-        font-size: 20px;
-        line-height: 25px;
-    }
-
-}
 
 @media only screen and (max-width: 768px) {
 
@@ -590,21 +575,46 @@ section .input {
         margin: 21px auto;
     }
 
+    .page-set {padding: 9vmin 6vmin;}
     .main-portfolio-skill ul { width: 94%; }
     .main-portfolio-skill ul li {padding: 3vmin 0; text-align: center;}
     .main-portfolio-skill ul li .item { width: auto; padding: 0;}
     .main-portfolio-skill ul li .item .item_icon { width: auto; padding: 0; }
     .main-portfolio-skill ul li .item .item_icon img { width: 10vmin; }
     .main-portfolio-skill ul li .item h3 { display: none; }
-    .main-portfolio-skill ul li .line_box {margin: 0 6vmin;}
+    .main-portfolio-skill ul li .line_box {margin: 0 4vmin;}
     .main-portfolio-skill ul li .level { width: 14vmin;}
     .main-portfolio-skill ul li .level p { padding: 0; font-size: 2.8vmin; }
 }
 
-@media only screen and (max-width: 1280px) {
-    .page-set, .page-set-nbgc, .image-title, .work-page-title, .contact-page-title {max-width: 780px;}
+@media only screen and (max-width: 640px) {
+
+    .image-title h1 {
+        font-size: 9.8vmin;
+        line-height: 20px;
+    }
+
+    .image-title h2 {
+        font-size: 5.2vmin;
+        line-height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 365px) {
+    .work-page-title h1, .contact-page-title h1 {
+        font-size: 36px;
+    }
 }
 
 @media only screen and (min-height: 2160px) {
     .work-page-title h1, .contact-page-title h1 {line-height: 1080px;}
 }
+
+@media only screen and (max-height: 365px) {
+
+    .work-page-title h1, .contact-page-title h1 {
+        line-height: 183px;
+    }
+}
+
