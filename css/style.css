@@ -46,10 +46,6 @@ body {
     padding: 0 40px;
 }
 
-.skill-hide {
-    display: none;
-}
-
 body h1, body h2, body h3 {
     font-weight: 600;
     font-style: normal;
@@ -208,6 +204,10 @@ body p.Eng {
 
 /*--------------------portfolio--------------------*/
 
+.skill-hide {
+    display: none;
+}
+
 .main-portfolio-image {
     overflow: hidden;
 }
@@ -235,6 +235,14 @@ body p.Eng {
 
 /*--------------------portfolio skill--------------------*/
 
+/*.main-portfolio-skill {*/
+    /*opacity: 0.2;*/
+    /*transition: 1s;*/
+/*}*/
+.skill-anim {
+    display: none;
+}
+
 .main-portfolio-skill h2 {
     text-align:center;
     font-size: 32px;
@@ -245,6 +253,8 @@ body p.Eng {
 .main-portfolio-skill ul {
     width: 100%;
     margin: 0 auto;
+    opacity: 0.2;
+    transition: 1s;
 }
 
 .main-portfolio-skill ul li {
@@ -296,23 +306,23 @@ body p.Eng {
     background: #d05a6e;
     border-radius: 20px 0 0 20px;
     z-index: 2;
-    /*transition:1s;*/
 }
-.main-portfolio-skill ul li .Master .line_content {
-    width: 95%
-}
-.main-portfolio-skill ul li .Expert .line_content {
-    width: 80%
-}
-.main-portfolio-skill ul li .Proficient .line_content {
-    width: 70%
-}
-.main-portfolio-skill ul li .Practiced .line_content {
-    width: 55%
-}
-.main-portfolio-skill ul li .Beginner .line_content {
-    width: 15%
-}
+
+/*.main-portfolio-skill ul li .Master .line_content {*/
+    /*width: 95%;*/
+/*}*/
+/*.main-portfolio-skill ul li .Expert .line_content {*/
+    /*width: 80%;*/
+/*}*/
+/*.main-portfolio-skill ul li .Proficient .line_content {*/
+    /*width: 70%;*/
+/*}*/
+/*.main-portfolio-skill ul li .Practiced .line_content {*/
+    /*width: 55%;*/
+/*}*/
+/*.main-portfolio-skill ul li .Beginner .line_content {*/
+    /*width: 15%;*/
+/*}*/
 /*.main-portfolio-skill ul li .line_box .line_hide {*/
     /*width: 0%;*/
 /*}*/
