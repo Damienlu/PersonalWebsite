@@ -51,22 +51,22 @@
     }
 }
 
-.main-portfolio-skill ul li .Master .line_content {
+.main-portfolio-skill ul li .Expert .line_content {
     -webkit-animation: animline1 1s 0.9s forwards ;
     -o-animation: animline1 1s 0.9s forwards ;
     animation: animline1 1s 0.9s forwards ;
 }
-.main-portfolio-skill ul li .Expert .line_content {
+.main-portfolio-skill ul li .Proficient .line_content {
     -webkit-animation: animline2 1s 0.9s forwards ;
     -o-animation: animline2 1s 0.9s forwards ;
     animation: animline2 1s 0.9s forwards ;
 }
-.main-portfolio-skill ul li .Proficient .line_content {
+.main-portfolio-skill ul li .Practiced .line_content {
     -webkit-animation: animline3 1s 0.9s forwards ;
     -o-animation: animline3 1s 0.9s forwards ;
     animation: animline3 1s 0.9s forwards ;
 }
-.main-portfolio-skill ul li .Practiced .line_content {
+.main-portfolio-skill ul li .learned .line_content {
     -webkit-animation: animline4 1s 0.9s forwards ;
     -o-animation: animline4 1s 0.9s forwards ;
     animation: animline4 1s 0.9s forwards ;
@@ -81,7 +81,7 @@
         width: 0
     }
     to {
-        width: 95%
+        width: 90%
     }
 }
 @keyframes animline2 {
@@ -105,7 +105,7 @@
         width: 0
     }
     to {
-        width: 55%
+        width: 60%
     }
 }
 @keyframes animline5 {
@@ -113,6 +113,6 @@
         width: 0
     }
     to {
-        width: 15%
+        width: 20%
     }
 }

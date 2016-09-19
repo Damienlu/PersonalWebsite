@@ -172,10 +172,10 @@ body p.Eng {
     position: relative;
     z-index: 10;
     background: url("../img/p2.jpg") no-repeat center -200px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
 
 .mobile__image__page {
@@ -308,25 +308,6 @@ body p.Eng {
     z-index: 2;
 }
 
-/*.main-portfolio-skill ul li .Master .line_content {*/
-    /*width: 95%;*/
-/*}*/
-/*.main-portfolio-skill ul li .Expert .line_content {*/
-    /*width: 80%;*/
-/*}*/
-/*.main-portfolio-skill ul li .Proficient .line_content {*/
-    /*width: 70%;*/
-/*}*/
-/*.main-portfolio-skill ul li .Practiced .line_content {*/
-    /*width: 55%;*/
-/*}*/
-/*.main-portfolio-skill ul li .Beginner .line_content {*/
-    /*width: 15%;*/
-/*}*/
-/*.main-portfolio-skill ul li .line_box .line_hide {*/
-    /*width: 0%;*/
-/*}*/
-
 .main-portfolio-skill ul li .line_box .line_bg {
     position: absolute;
     width: 100%;
@@ -360,18 +341,18 @@ body p.Eng {
 
 .work__page {
     background: url("../img/p1.jpg") no-repeat center -200px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
 
 .contact__page {
     background: url("../img/p3.jpg") no-repeat center -200px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
 
 .mobile__work__page {
@@ -429,10 +410,30 @@ body p.Eng {
 
 /*--------------------work content--------------------*/
 
-.main-work-content1 img, .main-work-content2 img {
-    width: 200px;
+.main-work-content img {
+    width: 140px;
     display: block;
     margin: 0 auto;
+    font-size: 16px;
+}
+.main-work-content h2 {
+    font-size: 16px;
+    color: #363636;
+    padding: 16px;
+    letter-spacing: 1.5px;
+    text-align: center;
+
+}
+
+.main-work-content .workicon-area {
+    transition: .4s;
+}
+
+.main-work-content .workicon-area:hover {
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    transition: .4s;
 }
 
 /*--------------------contact--------------------*/
@@ -615,9 +616,9 @@ section .input {
 
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 420px) {
     .work-page-title h1, .contact-page-title h1 {
-        font-size: 36px;
+        font-size: 13vmin;
     }
 }
 
