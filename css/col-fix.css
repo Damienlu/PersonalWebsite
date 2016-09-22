@@ -3,8 +3,8 @@
 
 .cf {
 	clear: both;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 /*  GROUPING  ============================================================================= */
@@ -46,7 +46,7 @@
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 640 PIXELS */
 
 @media only screen and (max-width: 640px) {
-	.col, .col-flip {
+	.col-margin, .col-margin-flip {
 		margin: 1% 0 1% 0;
 	}
 }/*  GRID OF TWO   ============================================================================= */
@@ -57,7 +57,7 @@
 }
 
 .span_1_of_2 {
-	width: 47.2%;
+	width: 48.2%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
@@ -77,11 +77,11 @@
 }
 
 .span_2_of_3 {
-	width: 64.13%;
+	width: 65.46%;
 }
 
 .span_1_of_3 {
-	width: 30.26%;
+	width: 30.93%;
 }
 
 
@@ -105,15 +105,15 @@
 }
 
 .span_3_of_4 {
-	width: 72.6%;
+	width: 75.1%;
 }
 
 .span_2_of_4 {
-	width: 47.2%;
+	width: 48.2%;
 }
 
 .span_1_of_4 {
-	width: 21.8%;
+	width: 22.3%;
 }
 
 
@@ -140,19 +140,19 @@
 }
 
 .span_4_of_5 {
-	width: 77.68%;
+	width: 79.28%;
 }
 
 .span_3_of_5 {
-	width: 57.36%;
+	width: 58.56%;
 }
 
 .span_2_of_5 {
-	width: 37.04%;
+	width: 37.84%;
 }
 
 .span_1_of_5 {
-	width: 16.72%;
+	width: 17.12%;
 }
 
 
@@ -182,23 +182,23 @@
 }
 
 .span_5_of_6 {
-	width: 81.06%;
+	width: 82.73%;
 }
 
 .span_4_of_6 {
-	width: 64.13%;
+	width: 65.46%;
 }
 
 .span_3_of_6 {
-	width: 47.2%;
+	width: 48.2%;
 }
 
 .span_2_of_6 {
-	width: 30.26%;
+	width: 30.93%;
 }
 
 .span_1_of_6 {
-	width: 13.33%;
+	width: 13.66%;
 }
 
 
@@ -231,27 +231,27 @@
 }
 
 .span_6_of_7 {
-	width: 83.48%;
+	width: 85.2%;
 }
 
 .span_5_of_7 {
-	width: 68.97%;
+	width: 70.4%;
 }
 
 .span_4_of_7 {
-	width: 54.45%;
+	width: 55.6%;
 }
 
 .span_3_of_7 {
-	width: 39.94%;
+	width: 40.8%;
 }
 
 .span_2_of_7 {
-	width: 25.42%;
+	width: 26%;
 }
 
 .span_1_of_7 {
-	width: 10.91%;
+	width: 11.2%;
 }
 
 
@@ -287,31 +287,31 @@
 }
 
 .span_7_of_8 {
-	width: 85.3%;
+	width: 87.05%;
 }
 
 .span_6_of_8 {
-	width: 72.6%;
+	width: 74.1%;
 }
 
 .span_5_of_8 {
-	width: 59.9%;
+	width: 61.15%;
 }
 
 .span_4_of_8 {
-	width: 47.2%;
+	width: 48.2%;
 }
 
 .span_3_of_8 {
-	width: 34.5%;
+	width: 35.25%;
 }
 
 .span_2_of_8 {
-	width: 21.8%;
+	width: 22.3%;
 }
 
 .span_1_of_8 {
-	width: 9.1%;
+	width: 9.35%;
 }
 
 
@@ -350,35 +350,35 @@
 }
 
 .span_8_of_9 {
-	width: 86.71%;
+	width: 88.48%;
 }
 
 .span_7_of_9 {
-	width: 75.42%;
+	width: 76.97%;
 }
 
 .span_6_of_9 {
-	width: 64.13%;
+	width: 65.46%;
 }
 
 .span_5_of_9 {
-	width: 52.84%;
+	width: 53.95%;
 }
 
 .span_4_of_9 {
-	width: 41.55%;
+	width: 42.44%;
 }
 
 .span_3_of_9 {
-	width: 30.26%;
+	width: 30.93%;
 }
 
 .span_2_of_9 {
-	width: 18.97%;
+	width: 19.42%;
 }
 
 .span_1_of_9 {
-	width: 7.68%;
+	width: 7.91%;
 }
 
 
@@ -412,83 +412,6 @@
 	.span_1_of_9 {
 		width: 100%;
 	}
-}/*  GRID OF TEN   ============================================================================= */
-
-
-.span_10_of_10 {
-	width: 100%;
-}
-
-.span_9_of_10 {
-	width: 87.84%;
-}
-
-.span_8_of_10 {
-	width: 77.68%;
-}
-
-.span_7_of_10 {
-	width: 67.52%;
-}
-
-.span_6_of_10 {
-	width: 57.36%;
-}
-
-.span_5_of_10 {
-	width: 47.2%;
-}
-
-.span_4_of_10 {
-	width: 37.04%;
-}
-
-.span_3_of_10 {
-	width: 26.88%;
-}
-
-.span_2_of_10 {
-	width: 16.72%;
-}
-
-.span_1_of_10 {
-	width: 6.56%;
-}
-
-
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
-
-@media only screen and (max-width: 640px) {
-	.span_10_of_10 {
-		width: 100%;
-	}
-	.span_9_of_10 {
-		width: 100%;
-	}
-	.span_8_of_10 {
-		width: 100%;
-	}
-	.span_7_of_10 {
-		width: 100%;
-	}
-	.span_6_of_10 {
-		width: 100%;
-	}
-	.span_5_of_10 {
-		width: 100%;
-	}
-	.span_4_of_10 {
-		width: 100%;
-	}
-	.span_3_of_10 {
-		width: 100%;
-	}
-	.span_2_of_10 {
-		width: 100%;
-	}
-	.span_1_of_10 {
-		width: 100%;
-	}
 }
 /*  GRID OF TEN   ============================================================================= */
 
@@ -498,39 +421,39 @@
 }
 
 .span_9_of_10 {
-	width: 87.84%;
+	width: 89.64%;
 }
 
 .span_8_of_10 {
-	width: 77.68%;
+	width: 79.28%;
 }
 
 .span_7_of_10 {
-	width: 67.52%;
+	width: 68.92%;
 }
 
 .span_6_of_10 {
-	width: 57.36%;
+	width: 58.56%;
 }
 
 .span_5_of_10 {
-	width: 47.2%;
+	width: 48.2%;
 }
 
 .span_4_of_10 {
-	width: 37.04%;
+	width: 37.84%;
 }
 
 .span_3_of_10 {
-	width: 26.88%;
+	width: 27.48%;
 }
 
 .span_2_of_10 {
-	width: 16.72%;
+	width: 17.12%;
 }
 
 .span_1_of_10 {
-	width: 6.56%;
+	width: 6.76%;
 }
 
 
@@ -575,43 +498,43 @@
 }
 
 .span_10_of_11 {
-	width: 88.76%;
+	width: 90.58%;
 }
 
 .span_9_of_11 {
-	width: 79.52%;
+	width: 81.16%;
 }
 
 .span_8_of_11 {
-	width: 70.29%;
+	width: 71.74%;
 }
 
 .span_7_of_11 {
-	width: 61.05%;
+	width: 62.32%;
 }
 
 .span_6_of_11 {
-	width: 51.81%;
+	width: 52.9%;
 }
 
 .span_5_of_11 {
-	width: 42.58%;
+	width: 43.49%;
 }
 
 .span_4_of_11 {
-	width: 33.34%;
+	width: 34.07%;
 }
 
 .span_3_of_11 {
-	width: 24.1%;
+	width: 24.65%;
 }
 
 .span_2_of_11 {
-	width: 14.87%;
+	width: 15.23%;
 }
 
 .span_1_of_11 {
-	width: 5.63%;
+	width: 5.81%;
 }
 
 
@@ -651,255 +574,7 @@
 	.span_1_of_11 {
 		width: 100%;
 	}
-}/*  GRID OF ELEVEN   ============================================================================= */
 
-.span_11_of_11 {
-	width: 100%;
-}
-
-.span_10_of_11 {
-	width: 88.76%;
-}
-
-.span_9_of_11 {
-	width: 79.52%;
-}
-
-.span_8_of_11 {
-	width: 70.29%;
-}
-
-.span_7_of_11 {
-	width: 61.05%;
-}
-
-.span_6_of_11 {
-	width: 51.81%;
-}
-
-.span_5_of_11 {
-	width: 42.58%;
-}
-
-.span_4_of_11 {
-	width: 33.34%;
-}
-
-.span_3_of_11 {
-	width: 24.1%;
-}
-
-.span_2_of_11 {
-	width: 14.87%;
-}
-
-.span_1_of_11 {
-	width: 5.63%;
-}
-
-
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
-
-@media only screen and (max-width: 640px) {
-	.span_11_of_11 {
-		width: 100%;
-	}
-	.span_10_of_11 {
-		width: 100%;
-	}
-	.span_9_of_11 {
-		width: 100%;
-	}
-	.span_8_of_11 {
-		width: 100%;
-	}
-	.span_7_of_11 {
-		width: 100%;
-	}
-	.span_6_of_11 {
-		width: 100%;
-	}
-	.span_5_of_11 {
-		width: 100%;
-	}
-	.span_4_of_11 {
-		width: 100%;
-	}
-	.span_3_of_11 {
-		width: 100%;
-	}
-	.span_2_of_11 {
-		width: 100%;
-	}
-	.span_1_of_11 {
-		width: 100%;
-	}
-}/*  GRID OF ELEVEN   ============================================================================= */
-
-.span_11_of_11 {
-	width: 100%;
-}
-
-.span_10_of_11 {
-	width: 88.76%;
-}
-
-.span_9_of_11 {
-	width: 79.52%;
-}
-
-.span_8_of_11 {
-	width: 70.29%;
-}
-
-.span_7_of_11 {
-	width: 61.05%;
-}
-
-.span_6_of_11 {
-	width: 51.81%;
-}
-
-.span_5_of_11 {
-	width: 42.58%;
-}
-
-.span_4_of_11 {
-	width: 33.34%;
-}
-
-.span_3_of_11 {
-	width: 24.1%;
-}
-
-.span_2_of_11 {
-	width: 14.87%;
-}
-
-.span_1_of_11 {
-	width: 5.63%;
-}
-
-
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
-
-@media only screen and (max-width: 640px) {
-	.span_11_of_11 {
-		width: 100%;
-	}
-	.span_10_of_11 {
-		width: 100%;
-	}
-	.span_9_of_11 {
-		width: 100%;
-	}
-	.span_8_of_11 {
-		width: 100%;
-	}
-	.span_7_of_11 {
-		width: 100%;
-	}
-	.span_6_of_11 {
-		width: 100%;
-	}
-	.span_5_of_11 {
-		width: 100%;
-	}
-	.span_4_of_11 {
-		width: 100%;
-	}
-	.span_3_of_11 {
-		width: 100%;
-	}
-	.span_2_of_11 {
-		width: 100%;
-	}
-	.span_1_of_11 {
-		width: 100%;
-	}
-}/*  GRID OF ELEVEN   ============================================================================= */
-
-.span_11_of_11 {
-	width: 100%;
-}
-
-.span_10_of_11 {
-	width: 88.76%;
-}
-
-.span_9_of_11 {
-	width: 79.52%;
-}
-
-.span_8_of_11 {
-	width: 70.29%;
-}
-
-.span_7_of_11 {
-	width: 61.05%;
-}
-
-.span_6_of_11 {
-	width: 51.81%;
-}
-
-.span_5_of_11 {
-	width: 42.58%;
-}
-
-.span_4_of_11 {
-	width: 33.34%;
-}
-
-.span_3_of_11 {
-	width: 24.1%;
-}
-
-.span_2_of_11 {
-	width: 14.87%;
-}
-
-.span_1_of_11 {
-	width: 5.63%;
-}
-
-
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
-
-@media only screen and (max-width: 640px) {
-	.span_11_of_11 {
-		width: 100%;
-	}
-	.span_10_of_11 {
-		width: 100%;
-	}
-	.span_9_of_11 {
-		width: 100%;
-	}
-	.span_8_of_11 {
-		width: 100%;
-	}
-	.span_7_of_11 {
-		width: 100%;
-	}
-	.span_6_of_11 {
-		width: 100%;
-	}
-	.span_5_of_11 {
-		width: 100%;
-	}
-	.span_4_of_11 {
-		width: 100%;
-	}
-	.span_3_of_11 {
-		width: 100%;
-	}
-	.span_2_of_11 {
-		width: 100%;
-	}
-	.span_1_of_11 {
-		width: 100%;
-	}
 }/*  GRID OF TWELVE   ============================================================================= */
 
 .span_12_of_12 {
@@ -907,47 +582,47 @@
 }
 
 .span_11_of_12 {
-	width: 89.53%;
+	width: 91.36%;
 }
 
 .span_10_of_12 {
-	width: 81.06%;
+	width: 82.73%;
 }
 
 .span_9_of_12 {
-	width: 72.6%;
+	width: 74.09%;
 }
 
 .span_8_of_12 {
-	width: 64.13%;
+	width: 65.46%;
 }
 
 .span_7_of_12 {
-	width: 55.66%;
+	width: 56.83%;
 }
 
 .span_6_of_12 {
-	width: 47.2%;
+	width: 48.19%;
 }
 
 .span_5_of_12 {
-	width: 38.73%;
+	width: 39.56%;
 }
 
 .span_4_of_12 {
-	width: 30.26%;
+	width: 30.93%;
 }
 
 .span_3_of_12 {
-	width: 21.8%;
+	width: 22.29%;
 }
 
 .span_2_of_12 {
-	width: 13.33%;
+	width: 13.66%;
 }
 
 .span_1_of_12 {
-	width: 4.86%;
+	width: 5.03%;
 }
 
 
