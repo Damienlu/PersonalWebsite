@@ -779,7 +779,7 @@ section .input {
 
     .licenses-content h3 { font-size: 4.6vmin; }
 
-    .main-contact h1 { font-size: 5.5vmin; }
+    .main-contact h1 { font-size: 5vmin; }
 
     h2.skill-anim { font-size: 5.5vmin; }
 }
@@ -799,7 +799,7 @@ section .input {
     }
 
     .back_to_more {
-        top: 30px;
+        top: -30px;
     }
 }
 
