@@ -574,13 +574,14 @@ h1.coming {
 }
 
 .back_to_more {
-    display: block;
+    display: none;
     width: 60px;
     height: 60px;
     z-index: 100;
     position: relative;
     left: 50%;
     margin-left: -30px;
+    top: -60px;
 }
 
 .back_to_more .arrow {
@@ -797,6 +798,9 @@ section .input {
         line-height: 25px;
     }
 
+    .back_to_more {
+        top: 30px;
+    }
 }
 
 @media only screen and (max-width: 420px) {
