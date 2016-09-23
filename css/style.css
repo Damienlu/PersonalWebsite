@@ -166,10 +166,10 @@ body p.Eng {
     position: relative;
     z-index: 10;
     background: url("../img/p2.jpg") no-repeat center -200px;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .mobile__image__page {
