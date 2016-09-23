@@ -172,20 +172,20 @@ body p.Eng {
     background-size: cover;
 }
 
-.mobile__image__page {
-    background-image: url("../img/p2.jpg");
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 10;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+/*.mobile__image__page {*/
+    /*background-image: url("../img/p2.jpg");*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
 
 .image-container {
 
@@ -734,6 +734,22 @@ section .input {
 
 
 @media only screen and (max-width: 720px) {
+
+    .image__page{
+        background-image: url("../img/p2.jpg");
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 10;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+        /*background-size: cover;*/
+
+    }
 
     #parallax-nav { opacity: 0; }
 
