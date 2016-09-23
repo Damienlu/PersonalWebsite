@@ -536,7 +536,7 @@ body p.Eng {
 
 .workicon-area-coming {
     position: relative;
-    width: 180px;
+    width: 220px;
     display: block;
     margin: 0 auto;
     background-color: #fbfbfb;
@@ -563,6 +563,7 @@ h1.coming {
     margin: 0 auto;
     text-align: center;
     z-index: 4;
+    letter-spacing: 2px;
 }
 
 .workicon-area-coming:hover {
