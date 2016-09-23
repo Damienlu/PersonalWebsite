@@ -20,8 +20,8 @@
     padding: 30px;
 }
 
-.space-25 {
-    padding: 25px;
+.space-50 {
+    padding: 50px;
 }
 
 .space-middle {
@@ -127,18 +127,8 @@ body p.Eng {
     border-radius: 50%;
 }
 
-#parallax-nav ul li.active a {
-    width: 8px;
-    height: 8px;
-}
-
 #parallax-nav ul li a {
     background-color: #d05a6e;
-}
-
-#parallax-nav ul li.active a {
-    background-color: transparent;
-    border: solid 2px #d05a6e;
 }
 
     /*--------------------首頁大圖--------------------*/
