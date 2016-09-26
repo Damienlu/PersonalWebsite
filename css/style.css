@@ -75,7 +75,7 @@ body p.Eng {
 
 /*--------------------固定連結點--------------------*/
 
-#parallax-nav {
+#ParallaxNav {
     position: fixed;
     z-index: 60;
     top: 45%;
@@ -84,7 +84,7 @@ body p.Eng {
     opacity: 1;
 }
 
-.nav-title {
+.NavTitle {
     position: absolute;
     right: 10px;
     opacity: 0;
@@ -101,7 +101,7 @@ body p.Eng {
 
 }
 
-#parallax-nav li:hover span.nav-title {
+#ParallaxNav li:hover span.NavTitle {
     right: 20px;
     opacity: 1;
     z-index: 51;
@@ -109,18 +109,18 @@ body p.Eng {
     visibility: visible;
 }
 
-#parallax-nav ul {
+#ParallaxNav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#parallax-nav ul li {
+#ParallaxNav ul li {
     margin: 0;
     padding: 10px 0 10px 15px;
 }
 
-#parallax-nav ul li a {
+#ParallaxNav ul li a {
     width: 12px;
     height: 12px;
     display: block;
@@ -130,13 +130,13 @@ body p.Eng {
     border-radius: 50%;
 }
 
-#parallax-nav ul li a {
+#ParallaxNav ul li a {
     background-color: #d05a6e;
 }
 
     /*--------------------首頁大圖--------------------*/
 
-.image-title {
+.HomePage__Container__Title {
     max-width: 960px;
     margin: 0 auto;
     text-align: center;
@@ -145,7 +145,7 @@ body p.Eng {
     opacity: 1;
 }
 
-.image-title h1 {
+.HomePage__Container__Title h1 {
     color: #fff;
     font-size: 60px;
     line-height: 60px;
@@ -154,7 +154,7 @@ body p.Eng {
     text-align: center;
 }
 
-.image-title h2 {
+.HomePage__Container__Title h2 {
     color: #fff;
     font-size: 48px;
     line-height: 48px;
@@ -163,34 +163,19 @@ body p.Eng {
     text-align: center;
 }
 
-.image__page {
+.HomePage {
     width: 100%;
     overflow: hidden;
     position: relative;
     z-index: 10;
     background: url("../img/p2.jpg") no-repeat center -200px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-/*.mobile__image__page {*/
-    /*background-image: url("../img/p2.jpg");*/
-    /*width: 100%;*/
-    /*overflow: hidden;*/
-    /*position: relative;*/
-    /*z-index: 10;*/
-    /*background-attachment: fixed;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
     /*-o-background-size: cover;*/
     /*background-size: cover;*/
-/*}*/
+}
 
-.image-container {
+.HomePage__Container {
 
     position: relative;
     width: 100%;
@@ -205,11 +190,11 @@ body p.Eng {
     display: none;
 }
 
-.main-portfolio-image {
+.PortfolioPage__Image {
     overflow: hidden;
 }
 
-.main-portfolio-image img {
+.PortfolioPage__Image img {
     width: calc(100% - 12px);
     height: calc(100% - 12px);
     border: 1px solid #ddd;
@@ -218,64 +203,64 @@ body p.Eng {
     transition: all .4s;
 }
 
-.main-portfolio-image img:hover {
+.PortfolioPage__Image img:hover {
     -moz-transform: scale(1.05,1.05);
     -webkit-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
     transition: all .4s;
 }
 
-.main-portfolio-content p {
+.PortfolioPage__Content p {
     text-align: justify;
 }
 
 /*--------------------portfolio skill--------------------*/
 
-.skill-anim {
+.Skill__Anim {
     display: none;
 }
 
-.main-portfolio-skill h2 {
+.PortfolioPage__Skill h2 {
     text-align:center;
     font-size: 32px;
     padding: 0 0 50px 0;
     letter-spacing: 1px;
 }
 
-.main-portfolio-skill .skill_content ul {
+.PortfolioPage__Skill .Skill__Content ul {
     width: 100%;
     margin: 0 auto;
     opacity: 0.2;
     transition: 1s;
 }
 
-.main-portfolio-skill .skill_content ul li {
+.PortfolioPage__Skill .Skill__Content ul li {
     text-align: center;
     padding: 14px 0;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
-.main-portfolio-skill .skill_content ul li:nth-child(1) {
+.PortfolioPage__Skill .Skill__Content ul li:nth-child(1) {
     border-top: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
-.main-portfolio-skill .skill_content ul li .item {
+.PortfolioPage__Skill .Skill__Content ul li .Item {
     display: inline-block;
     vertical-align: middle;
     width: 30%;
 }
 
-.main-portfolio-skill .skill_content ul li .item .item_icon {
+.PortfolioPage__Skill .Skill__Content ul li .Item .Item__Icon {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px 0 0;
     width: 70px;
 }
-.main-portfolio-skill .skill_content ul li .item .item_icon img {
+.PortfolioPage__Skill .Skill__Content ul li .Item .Item__Icon img {
     width: 60px;
 }
 
-.main-portfolio-skill .skill_content ul li .item h3 {
+.PortfolioPage__Skill .Skill__Content ul li .Item h3 {
     display: inline-block;
     vertical-align: middle;
     color: #363636;
@@ -285,13 +270,13 @@ body p.Eng {
     width: 50%;
     letter-spacing: 1.5px;
 }
-.main-portfolio-skill .skill_content ul li .line_box {
+.PortfolioPage__Skill .Skill__Content ul li .LineBox {
     display: inline-block;
     position: relative;
     width: 50%;
     height: 8px;
 }
-.main-portfolio-skill .skill_content ul li .line_box .line_content {
+.PortfolioPage__Skill .Skill__Content ul li .LineBox .LineBox__content {
     position: absolute;
     width: 0;
     height: 100%;
@@ -300,7 +285,7 @@ body p.Eng {
     z-index: 2;
 }
 
-.main-portfolio-skill .skill_content ul li .line_box .line_bg {
+.PortfolioPage__Skill .Skill__Content ul li .LineBox .LineBox__Bg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -309,12 +294,12 @@ body p.Eng {
     border-radius: 20px;
     z-index: 1;
 }
-.main-portfolio-skill .skill_content ul li .level {
+.PortfolioPage__Skill .Skill__Content ul li .Level {
     width: 16%;
     display: inline-block;
 }
 
-.main-portfolio-skill .skill_content ul li .level p {
+.PortfolioPage__Skill .Skill__Content ul li .Level p {
     padding: 0 0 0 30%;
     text-align: left;
     font-style: italic;
@@ -324,35 +309,35 @@ body p.Eng {
 
 
 
-.main-portfolio-skill .experience_content ul {
+.PortfolioPage__Skill .ExperienceContent ul {
     width: 100%;
     margin: 0 auto;
     /*opacity: 0.2;*/
     transition: 1s;
 }
 
-.main-portfolio-skill .experience_content ul li {
+.PortfolioPage__Skill .ExperienceContent ul li {
     padding: 14px 0;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
-.main-portfolio-skill .experience_content ul li:nth-child(1) {
+.PortfolioPage__Skill .ExperienceContent ul li:nth-child(1) {
     border-top: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
-.main-portfolio-skill .experience_content ul li .comp {
+.PortfolioPage__Skill .ExperienceContent ul li .Comp {
     display: inline-block;
     vertical-align: middle;
     width: 52%;
 }
 
-.main-portfolio-skill .experience_content ul li .comp h3 {
+.PortfolioPage__Skill .ExperienceContent ul li .Comp h3 {
     padding: 0 0 1% 10%;
     text-align: left;
     font-size: 16px;
     letter-spacing: 2px;
 }
-.main-portfolio-skill .experience_content ul li .comp .job_title {
+.PortfolioPage__Skill .ExperienceContent ul li .Comp .JobTitle {
     padding: 0 0 0 10%;
     text-align: left;
     font-size: 14px;
@@ -361,14 +346,14 @@ body p.Eng {
     letter-spacing: 1px;
 }
 
-.main-portfolio-skill .experience_content ul li .comp_data {
+.PortfolioPage__Skill .ExperienceContent ul li .Comp__Data {
     width: 46%;
     display: inline-block;
     vertical-align: bottom;
     line-height: 22px;
 }
 
-.main-portfolio-skill .experience_content ul li .comp_data p {
+.PortfolioPage__Skill .ExperienceContent ul li .Comp__Data p {
     padding: 0 10% 0 0;
     text-align: right;
     font-style: italic;
@@ -376,17 +361,17 @@ body p.Eng {
     opacity: 0.8;
 }
 
-.licenses {
+.Licenses {
     width: 90%;
     margin:0 auto;
     padding: 50px 0;
 }
 
-.licenses-image {
+.Licenses__Image {
     overflow: hidden;
 }
 
-.licenses-image img {
+.Licenses__Image img {
     width: calc(100% - 12px);
     height: calc(100% - 12px);
     border: 1px solid #ddd;
@@ -395,32 +380,32 @@ body p.Eng {
     transition: all .4s;
 }
 
-.licenses-image img:hover {
+.Licenses__Image img:hover {
     -moz-transform: scale(1.05,1.05);
     -webkit-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
     transition: all .4s;
 }
 
-.licenses-content h3 {
+.Licenses__Content h3 {
     font-size: 22px;
     letter-spacing: 1.5px;
 }
 
-.licenses-content p {
+.Licenses__Content p {
     text-align: justify;
 }
 
 /*--------------------work image, contact image--------------------*/
 
-.work__page, .contact__page {
+.WorkPage, .ContactPage {
     width: 100%;
     overflow: hidden;
     position: relative;
     z-index: 10;
 }
 
-.work__page {
+.WorkPage {
     background: url("../img/p1.jpg") no-repeat center -200px;
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
@@ -428,7 +413,7 @@ body p.Eng {
     /*background-size: cover;*/
 }
 
-.contact__page {
+.ContactPage {
     background: url("../img/p3.jpg") no-repeat center -200px;
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
@@ -436,37 +421,7 @@ body p.Eng {
     /*background-size: cover;*/
 }
 
-.mobile__work__page {
-    background-image: url("../img/p1.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 10;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.mobile__contact__page {
-    background-image: url("../img/p3.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 10;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.work-container, .contact-container {
+.WorkPage__Container, .ContactPage__Container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -474,14 +429,14 @@ body p.Eng {
     background-color: rgba(37, 83, 89, .7);
 }
 
-.work-page-title, .contact-page-title {
+.WorkPage__Container__Title, .ContactPage__Container__Title {
     max-width: 960px;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
 }
 
-.work-page-title h1, .contact-page-title h1 {
+.WorkPage__Container__Title h1, .ContactPage__Container__Title h1 {
     color: #fff;
     font-size: 60px;
     margin: auto;
@@ -604,23 +559,23 @@ h1.coming {
 
 /*--------------------contact--------------------*/
 
-.main-contact {
+.ContactContent {
     background-color: #fbfbfb;
 }
 
-.main-contact h1 {
+.ContactContent h1 {
     font-size: 28px;
     line-height: 1.2em;
     letter-spacing: 1px;
 }
 
-.main-contact p {
+.ContactContent p {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 1px;
 }
 
-#main-contact label {
+#ContactContent label {
     display: block;
     line-height: 2em;
 }
@@ -732,76 +687,129 @@ section .input {
 /*--------------------@media--------------------*/
 
 @media only screen and (max-width: 1280px) {
-    .page-set, .page-set-nbgc, .image-title, .work-page-title, .contact-page-title { max-width: 780px; }
+    .page-set, .page-set-nbgc, .HomePage__Container__Title, .WorkPage__Container__Title, .ContactPage__Container__Title { max-width: 780px; }
 }
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 760px) {
 
-    .image__page{
-        background: url("../img/p2.jpg") 50% 50%;
-        height: 1400px;
-        width: 2000px;
+    .HomePage{
+        background: url("../img/p2.jpg") no-repeat 50% 50% fixed;
+        width: 100%;
         overflow: hidden;
         position: relative;
         z-index: 10;
+    }
+
+    /*.mobile__HomePage {*/
+    /*background-image: url("../img/p2.jpg");*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*}*/
+
+    .WorkPage {
+        background: url("../img/p1.jpg") no-repeat 50% 50% fixed;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 10;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
-
     }
 
-    #parallax-nav { opacity: 0; }
-
-    .image-title h1 {
-        font-size: 50px;
-        line-height: 50px;
-        margin: 25px auto;
+    .ContactPage {
+        background: url("../img/p3.jpg") no-repeat 50% 50% fixed;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 10;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
-    .image-title h2 {
-        font-size: 36px;
-        line-height: 50px;
-        margin: 21px auto;
+    /*.WorkPage__Mobile {*/
+    /*background-image: url("../img/p1.jpg");*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*}*/
+
+    /*.ContactPage__Mobile {*/
+    /*background-image: url("../img/p3.jpg");*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*}*/
+
+    #ParallaxNav { opacity: 0; }
+
+    .space-portfolio { padding: 3vmin; }
+
+    .space-portfolio-fix { padding: 3vmin; }
+
+    .HomePage__Container__Title h1 {
+        font-size: 9.8vmin;
+        line-height: 8vmin;
+    }
+
+    .HomePage__Container__Title h2 {
+        font-size: 5.2vmin;
+        line-height: 5vmin;
     }
 
     .page-set { padding: 15vmin 6vmin; }
-    .main-portfolio-skill .skill_content ul { width: 94%; }
-    .main-portfolio-skill .skill_content ul li { padding: 3vmin 0; text-align: center; }
-    .main-portfolio-skill .skill_content ul li .item { width: auto; padding: 0; }
-    .main-portfolio-skill .skill_content ul li .item .item_icon { width: auto; padding: 0; }
-    .main-portfolio-skill .skill_content ul li .item .item_icon img { width: 10vmin; }
-    .main-portfolio-skill .skill_content ul li .item h3 { display: none; }
-    .main-portfolio-skill .skill_content ul li .line_box { margin: 0 4vmin; }
-    .main-portfolio-skill .skill_content ul li .level { width: 14vmin; }
-    .main-portfolio-skill .skill_content ul li .level p { padding: 0; font-size: 2.8vmin; }
+    .PortfolioPage__Skill .Skill__Content ul { width: 94%; }
+    .PortfolioPage__Skill .Skill__Content ul li { padding: 3vmin 0; text-align: center; }
+    .PortfolioPage__Skill .Skill__Content ul li .Item { width: auto; padding: 0; }
+    .PortfolioPage__Skill .Skill__Content ul li .Item .Item__Icon { width: auto; padding: 0; }
+    .PortfolioPage__Skill .Skill__Content ul li .Item .Item__Icon img { width: 10vmin; }
+    .PortfolioPage__Skill .Skill__Content ul li .Item h3 { display: none; }
+    .PortfolioPage__Skill .Skill__Content ul li .LineBox { margin: 0 4vmin; }
+    .PortfolioPage__Skill .Skill__Content ul li .Level { width: 14vmin; }
+    .PortfolioPage__Skill .Skill__Content ul li .Level p { padding: 0; font-size: 2.8vmin; }
 
-    .main-portfolio-skill .experience_content ul { width: 94%; }
-    .main-portfolio-skill .experience_content ul li { padding: 3vmin 3vmin; }
-    .main-portfolio-skill .experience_content ul li .comp { width: auto; }
-    .main-portfolio-skill .experience_content ul li .comp h3 { padding: 0; font-size: 3.2vmin; letter-spacing: 0.3vmin; }
-    .main-portfolio-skill .experience_content ul li .comp .job_title { width: auto; padding: 0; font-size: 2.8vmin; letter-spacing: 0.1vmin; }
-    .main-portfolio-skill .experience_content ul li .comp_data { width: auto; display: block;  }
-    .main-portfolio-skill .experience_content ul li .comp_data p { width: auto; padding: 0; text-align: left; font-size: 2.8vmin;}
+    .PortfolioPage__Skill .Experience__Content ul { width: 94%; }
+    .PortfolioPage__Skill .Experience__Content ul li { padding: 3vmin 3vmin; }
+    .PortfolioPage__Skill .Experience__Content ul li .Comp { width: auto; }
+    .PortfolioPage__Skill .Experience__Content ul li .Comp h3 { padding: 0; font-size: 3.2vmin; letter-spacing: 0.3vmin; }
+    .PortfolioPage__Skill .Experience__Content ul li .Comp .JobTitle { width: auto; padding: 0; font-size: 2.8vmin; letter-spacing: 0.1vmin; }
+    .PortfolioPage__Skill .Experience__Content ul li .Comp__Data { width: auto; display: block;  }
+    .PortfolioPage__Skill .Experience__Content ul li .Comp__Data p { width: auto; padding: 0; text-align: left; font-size: 2.8vmin;}
 
-    .licenses-content h3 { font-size: 4.6vmin; }
+    .Licenses__Content h3 { font-size: 4.6vmin; }
 
-    .main-contact h1 { font-size: 5vmin; }
+    .ContactContent h1 { font-size: 5vmin; }
 
-    h2.skill-anim { font-size: 5.5vmin; }
-}
-
-@media only screen and (max-width: 640px) {
-
-    .space-portfolio-fix { padding: 14px; }
-
-    .image-title h1 {
-        font-size: 9.8vmin;
-        line-height: 20px;
-    }
-
-    .image-title h2 {
-        font-size: 5.2vmin;
-        line-height: 25px;
-    }
+    h2.Skill__Anim { font-size: 5.5vmin; }
 
     .back_to_more {
         top: -30px;
@@ -809,14 +817,14 @@ section .input {
 }
 
 @media only screen and (max-width: 420px) {
-    .work-page-title h1, .contact-page-title h1 { font-size: 13vmin; }
+    .WorkPage__Container__Title h1, .ContactPage__Container__Title h1 { font-size: 13vmin; }
 }
 
 @media only screen and (min-height: 2160px) {
-    .work-page-title h1, .contact-page-title h1 { line-height: 1080px; }
+    .WorkPage__Container__Title h1, .ContactPage__Container__Title h1 { line-height: 1080px; }
 }
 
 @media only screen and (max-height: 365px) {
-    .work-page-title h1, .contact-page-title h1 { line-height: 183px; }
+    .WorkPage__Container__Title h1, .ContactPage__Container__Title h1 { line-height: 183px; }
 }
 

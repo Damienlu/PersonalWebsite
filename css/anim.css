@@ -17,7 +17,7 @@
     }
 }
 
-#parallax-nav li:hover span.nav-title {
+#ParallaxNav li:hover span.NavTitle {
     -webkit-animation: moveinside .2s both;
     animation: moveinside .2s both;
 }
@@ -33,7 +33,7 @@
     }
 }
 
-#parallax-nav li span.nav-title {
+#ParallaxNav li span.NavTitle {
     -webkit-animation: moveoutside .2s both;
     animation: moveoutside .2s both;
 }
@@ -51,27 +51,27 @@
     }
 }
 
-.main-portfolio-skill .skill_content ul li .Expert .line_content {
+.PortfolioPage__Skill .Skill__Content ul li .Expert .LineBox__content {
     -webkit-animation: animline1 1s 0.9s forwards ;
     -o-animation: animline1 1s 0.9s forwards ;
     animation: animline1 1s 0.9s forwards ;
 }
-.main-portfolio-skill .skill_content ul li .Proficient .line_content {
+.PortfolioPage__Skill .Skill__Content ul li .Proficient .LineBox__content {
     -webkit-animation: animline2 1s 0.9s forwards ;
     -o-animation: animline2 1s 0.9s forwards ;
     animation: animline2 1s 0.9s forwards ;
 }
-.main-portfolio-skill .skill_content ul li .Practiced .line_content {
+.PortfolioPage__Skill .Skill__Content ul li .Practiced .LineBox__content {
     -webkit-animation: animline3 1s 0.9s forwards ;
     -o-animation: animline3 1s 0.9s forwards ;
     animation: animline3 1s 0.9s forwards ;
 }
-.main-portfolio-skill .skill_content ul li .learned .line_content {
+.PortfolioPage__Skill .Skill__Content ul li .learned .LineBox__content {
     -webkit-animation: animline4 1s 0.9s forwards ;
     -o-animation: animline4 1s 0.9s forwards ;
     animation: animline4 1s 0.9s forwards ;
 }
-.main-portfolio-skill .skill_content ul li .Beginner .line_content {
+.PortfolioPage__Skill .Skill__Content ul li .Beginner .LineBox__content {
     -webkit-animation: animline5 1s 0.9s forwards ;
     -o-animation: animline5 1s 0.9s forwards ;
     animation: animline5 1s 0.9s forwards ;
