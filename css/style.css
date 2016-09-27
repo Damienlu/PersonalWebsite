@@ -797,13 +797,13 @@ section .input {
     .PortfolioPage__Skill .Skill__Content ul li .Level { width: 14vmin; }
     .PortfolioPage__Skill .Skill__Content ul li .Level p { padding: 0; font-size: 2.8vmin; }
 
-    .PortfolioPage__Skill .Experience__Content ul { width: 94%; }
-    .PortfolioPage__Skill .Experience__Content ul li { padding: 3vmin 3vmin; }
-    .PortfolioPage__Skill .Experience__Content ul li .Comp { width: auto; }
-    .PortfolioPage__Skill .Experience__Content ul li .Comp h3 { padding: 0; font-size: 3.2vmin; letter-spacing: 0.3vmin; }
-    .PortfolioPage__Skill .Experience__Content ul li .Comp .JobTitle { width: auto; padding: 0; font-size: 2.8vmin; letter-spacing: 0.1vmin; }
-    .PortfolioPage__Skill .Experience__Content ul li .Comp__Data { width: auto; display: block;  }
-    .PortfolioPage__Skill .Experience__Content ul li .Comp__Data p { width: auto; padding: 0; text-align: left; font-size: 2.8vmin;}
+    .PortfolioPage__Skill .ExperienceContent ul { width: 94%; }
+    .PortfolioPage__Skill .ExperienceContent ul li { padding: 3vmin 3vmin; }
+    .PortfolioPage__Skill .ExperienceContent ul li .Comp { width: auto; }
+    .PortfolioPage__Skill .ExperienceContent ul li .Comp h3 { padding: 0; font-size: 3.2vmin; letter-spacing: 0.3vmin; }
+    .PortfolioPage__Skill .ExperienceContent ul li .Comp .JobTitle { width: auto; padding: 0; font-size: 2.8vmin; letter-spacing: 0.1vmin; }
+    .PortfolioPage__Skill .ExperienceContent ul li .Comp__Data { width: auto; display: block;  }
+    .PortfolioPage__Skill .ExperienceContent ul li .Comp__Data p { width: auto; padding: 0; text-align: left; font-size: 2.8vmin; }
 
     .Licenses__Content h3 { font-size: 4.6vmin; }
 
